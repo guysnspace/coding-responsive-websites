@@ -203,6 +203,15 @@ footer span {
 	border-bottom: 1px solid #eee;
 }
 
+header nav {
+	flex: 0 0 500px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
 footer {
 	border: none;
 
@@ -218,11 +227,24 @@ header h1 {
 	width: auto;
 }
 
+header nav {
+	flex: 0 0 500px;
+	padding: 0;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+/*
 header nav ul li {
 	display: inline;
 	word-spacing: 10px;
 
 }
+
 
 
 
